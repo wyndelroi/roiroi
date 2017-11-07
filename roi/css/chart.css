@@ -1,0 +1,195 @@
+body {
+	background-image: url(Wallpapersxl-Skate-Ahoodie-Vans-Logo-Wallpapers.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+}
+.navbar {
+	background-color: #222222;
+	text-transform: capitalize;
+	font-family: 'PT Sans Narrow', Arial , sans-serif;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0.5);
+}
+.navbar a{
+	color: #fff !important;
+	opacity: 0.8;
+	font-family: bold;
+	font-color: black;
+}
+.navbar a:hover{
+	opacity: 5;
+	background-color: #111111 !important;
+
+}
+ 
+.header {
+	height: 600px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-image: url(6817440-vans-wallpaper.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+
+} 
+.header img{
+	height: 350px;
+	width: 450px;
+	margin: 70px 0 0 40px;	
+}
+.header h1{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+.header h1,
+.header p,
+.header button {
+	margin-top:  20px;
+}
+.header .btn{
+	border-radius: 0;
+	margin: 40px 20px;
+}
+
+@media(max-width:768px) {
+	.header {
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img {
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20 px;
+		border-radius: 50px;
+	}
+
+	.header .btn {
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+	.header h1 {
+		font-size: 20px;
+
+	}
+
+	.header p {
+		font-size: 10px; 
+	}
+}
+.product-block .info .badge {
+	font-family: "franklin-gothic-urw-cond", "Arial Narrow Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 0.1em;
+}
+
+
+
+.page-util {
+		text-transform: uppercase;
+		color: #fff;
+		background-color: #1C1C1C;
+		text-align: center;
+	}
+	
+   .container-1 {
+   	background-color: white;
+		
+		margin-bottom: 100px;
+		
+	}
+	  .container-1 span {
+		
+		color: red;
+		
+	}
+	.container-1 i {
+		color: red;
+
+	}
+	
+	.container-1 img {
+		width: 200px;
+		height: 200%;
+		
+		
+
+	}
+	
+	.container-1 button {
+		background-color: white; 	
+		background: transparent;
+		font-family: bold;
+		
+
+	}
+	.container-1 a {
+		color: hotpink;
+		font-family: bold;
+	}
+  .container-1 h5 {
+		
+		color: red;
+	}
+
+.a:active {
+    text-decoration: underline;
+}
+
+		.footer {
+			padding: 100px;
+			color: #000;
+			background-color: #222222;
+		}
+		.footer .social {
+			font-size: 20px;
+			height: 30px;
+			width: 30px;
+			text-align: center;
+			padding: 5px;
+			border: 1px solid #cccccc;
+			margin-bottom: 10px;
+			margin-right: 5px
+		}
+   .footer h4 {
+   	color: white;
+   	font-family: bold;
+   	font-size: 30px;
+   }
+   .footer p {
+   	color: white;
+   	font-family: bold;
+   	font-size: 20px;
+   }
+   .footer i {
+   color: black;
+
+   }
+   .footer img {
+   	width: 100px;
+   	height: 100px;
+   }
+		
+ 
+ .box {
+   
+   height: 100px;
+}
+.contact h2 {
+    color: black;
+    font-family: bold;
+    font-size: 40px;
+}
+
+
+		
+
+
+

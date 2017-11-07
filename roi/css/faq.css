@@ -1,0 +1,192 @@
+body{
+	margin-top: 60px;
+}
+.navbar {
+	background-color: #222222;
+	text-transform: capitalize;
+	font-family: 'PT Sans Narrow', Arial , sans-serif;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0.5);
+}
+.navbar a{
+	color: #fff !important;
+	opacity: 0.8;
+	font-family: bold;
+	font-color: black;
+}
+.navbar a:hover{
+	opacity: 5;
+	background-color: #111111 !important;
+
+}
+ 
+.header {
+	height: 600px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-image: url(6817440-vans-wallpaper.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+
+} 
+.header img{
+	height: 350px;
+	width: 450px;
+	margin: 70px 0 0 40px;	
+}
+.header h1{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+.header h1,
+.header p,
+.header button {
+	margin-top:  20px;
+}
+.header .btn{
+	border-radius: 0;
+	margin: 40px 20px;
+}
+
+@media(max-width:768px) {
+	.header {
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img {
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20 px;
+		border-radius: 50px;
+	}
+
+	.header .btn {
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+	.header h1 {
+		font-size: 20px;
+
+	}
+
+	.header p {
+		font-size: 10px; 
+	}
+}
+.product-block .info .badge {
+	font-family: "franklin-gothic-urw-cond", "Arial Narrow Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 0.1em;
+}
+
+
+
+.page-util {
+		text-transform: uppercase;
+		color: #fff;
+		background-color: #1C1C1C;
+		text-align: center;
+	}
+	
+   .container-1 {
+		margin-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		background-color: black;
+
+	}
+	.container-1 img {
+		width: 200%;
+		height: 100%;
+
+	}
+
+	.container-1 h1 {
+		text-align: center;
+		font-family: bold;
+		font-size: 40px;
+
+	}
+	.container-1 a {
+		color: hotpink;
+		color: black;
+		font-family: bold;
+		text-decoration: none;
+	}
+	.container-1 a:hover {
+		opacity: 5;
+	background-color: red;
+	}
+	
+	.container-1 button {
+		width: 50%;
+		height: 50px;
+		text-decoration-color: black;
+	}
+	.container-1 button:hover {
+		opacity: 15;
+		background-color: grey;
+	}
+	
+/*contact*/
+.contact {
+		padding: 50px 0 80px;
+		text-align: center;
+	}
+	.contact h2 {
+		color: #4c4c4c;
+		margin: 20px 0 20px;
+		text-shadow: 3px 3px;
+	}
+	.contact .input-group{
+		margin-bottom: 25px;
+	}
+	.contact .form-control {
+		border-radius: 0 !important;
+	}
+	.contact span {
+		border-radius: 0 !important;
+	}
+	.contact .btn {
+		border-radius: 0;
+		width: 100%;
+		font-size:  15px;
+		background-color: #f08080;
+		color: #fff;
+	}
+	.contact .btn:hover{
+		background-color: #a85959 !important;
+		color: #fff !important;
+	}
+
+		.footer {
+
+			padding: 70px;
+			color: #cccccc;
+			background-color: #222222;
+			
+		}
+		.footer .social {
+			font-size: 20px;
+			height: 30px;
+			width: 30px;
+			text-align: center;
+			padding: 5px;
+			border: 1px solid #cccccc;
+			margin-bottom: 10px;
+			margin-right: 5px
+		}
+		.footer img {
+			
+			width: 100px;
+			height: 100px;
+		}
